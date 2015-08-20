@@ -406,7 +406,9 @@
   <field name="DateToRemove" type="strings"/>
   <field name="Department" type="strings"/>
   <field name="Education" type="strings"/>
+  <field name="EmploymentType" type="strings"/>
   <field name="EmplymentType" type="strings"/>
+  <field name="FeaturedJob" type="strings"/>
   <field name="JobCategory" type="strings"/>
   <field name="JobCode" type="strings"/>
   <field name="JobDescription" type="strings"/>
@@ -419,10 +421,12 @@
   <field name="PostingId" type="tlongs"/>
   <field name="ScrapeTime" type="strings"/>
   <field name="Scrapetime" type="strings"/>
+  <field name="Skill" type="strings"/>
   <field name="Skills" type="strings"/>
   <field name="Start_URL" type="strings"/>
   <field name="TimeOfDay" type="strings"/>
   <field name="TotalJobs" type="tlongs"/>
+  <field name="TravelRequired" type="strings"/>
   <field name="UniqueJobKey" type="strings"/>
   <field name="UniqueJobkey" type="strings"/>
   <field name="UniqueKey" type="strings"/>
