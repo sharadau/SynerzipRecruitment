@@ -49,8 +49,8 @@
   </fieldType>
   <fieldType name="point" class="solr.PointType" dimension="2" subFieldSuffix="_d"/>
   <fieldType name="random" class="solr.RandomSortField" indexed="true"/>
-  <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
-  <fieldType name="strings" class="solr.StrField" multiValued="true" sortMissingLast="true"/>
+  <fieldType name="string" class="solr.StrField" multiValued="false" sortMissingLast="true"/>
+  <fieldType name="strings" class="solr.StrField" multiValued="false" sortMissingLast="true"/>
   <fieldType name="tdate" class="solr.TrieDateField" precisionStep="6" positionIncrementGap="0"/>
   <fieldType name="tdates" class="solr.TrieDateField" precisionStep="6" multiValued="true" positionIncrementGap="0"/>
   <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" positionIncrementGap="0"/>
@@ -225,7 +225,7 @@
       <filter class="solr.SnowballPorterFilterFactory" language="Irish"/>
     </analyzer>
   </fieldType>
-  <fieldType name="text_general" class="solr.TextField" multiValued="true" positionIncrementGap="100">
+  <fieldType name="text_general" class="solr.TextField" multiValued="false" positionIncrementGap="100">
     <analyzer type="index">
       <tokenizer class="solr.StandardTokenizerFactory"/>
       <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
@@ -419,6 +419,7 @@
   <field name="NumberOfVacancies" type="tlongs"/>
   <field name="PosingId" type="tlongs"/>
   <field name="PostingId" type="tlongs"/>
+  <field name="PostingUniqueKey" type="strings"/>
   <field name="ScrapeTime" type="strings"/>
   <field name="Scrapetime" type="strings"/>
   <field name="Skill" type="strings"/>
@@ -430,6 +431,7 @@
   <field name="UniqueJobKey" type="strings"/>
   <field name="UniqueJobkey" type="strings"/>
   <field name="UniqueKey" type="strings"/>
+  <field name="Vacancies" type="strings"/>
   <field name="WholePostinHTML" type="strings"/>
   <field name="WholePosting" type="strings"/>
   <field name="WholePostingHTML" type="strings"/>
