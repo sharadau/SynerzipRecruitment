@@ -120,7 +120,7 @@
    <field name="CompanyName" type="text_general" indexed="true" stored="true" termVectors="true" termPositions="true" />
    <field name="ContactEmailAddress" type="text_general" indexed="true" stored="true" />
    <field name="ContactName" type="text_general" indexed="true" stored="true" />
-   <field name="DatePosted" type="text_general" indexed="true" stored="true" multiValued="false"/>
+   <field name="DatePosted" type="text_general" indexed="true" stored="true"
    <field name="Department" type="text_general" indexed="true" stored="true" />
    <field name="Education" type="text_general" indexed="true" stored="true" />
    <field name="Industry" type="text_general" indexed="true" stored="true" />
