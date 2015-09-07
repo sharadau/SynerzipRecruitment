@@ -139,6 +139,8 @@
    <field name="UniqueKey" type="text_general" indexed="true" stored="true" />
    <field name="WholePosting" type="text_general" indexed="false" stored="false" />
    <field name="WholePostingHTML" type="text_general" indexed="false" stored="false" />
+   <field name="UniqueJobKey" type="text_general" indexed="false" stored="false" /> 
+   <field name="JobDescriptionHtml" type="text_general" indexed="false" stored="false" />   
    <field name="WholePostingHtml" type="text_general" indexed="false" stored="false" />
    <field name="PostingId" type="text_general" indexed="false" stored="false" />
    <field name="PosingId" type="text_general" indexed="false" stored="false" />
