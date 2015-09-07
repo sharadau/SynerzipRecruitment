@@ -169,6 +169,11 @@
 	<field name="NuberOfVacancies" type="text_general" indexed="true" stored="true" />
 	<field name="Country" type="text_general" indexed="true" stored="true" />
 	<field name="_TravelRequired" type="text_general" indexed="true" stored="true" />
+	<field name="ContactPhoneNumber" type="text_general" indexed="true" stored="true" />
+	<field name="CompanyInformation" type="text_general" indexed="true" stored="true" />
+	<field name="EmploymentDuration" type="text_general" indexed="true" stored="true" />
+	<field name="TotalJObs" type="text_general" indexed="true" stored="true" />
+	<field name="UniquejobKey" type="text_general" indexed="true" stored="true" />
 	
     <uniqueKey>JobDetailUrl</uniqueKey>
    
