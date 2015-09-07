@@ -83,6 +83,8 @@
 
   <lib dir="${solr.install.dir:../../../..}/contrib/velocity/lib" regex=".*\.jar" />
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
+  <lib dir="${solr.install.dir:../../../..}/contrib/dataimporthandler/lib" regex=".*\.jar" />
+  <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-dataimporthandler-.*\.jar" />
   <!-- an exact 'path' can be used instead of a 'dir' to specify a 
        specific jar file.  This will cause a serious error to be logged 
        if it can't be loaded.
@@ -145,12 +147,12 @@
        When ManagedIndexSchemaFactory is specified with mutable = true, schema
        modification REST API calls will be allowed; otherwise, error responses will be
        sent back for these requests. 
-  -->
+  
   <schemaFactory class="ManagedIndexSchemaFactory">
     <bool name="mutable">true</bool>
     <str name="managedSchemaResourceName">managed-schema</str>
   </schemaFactory>
-
+-->
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Index Config - These settings control low-level behavior of indexing
        Most example settings here show the default value, but are commented
@@ -796,6 +798,7 @@
       -->
     <lst name="defaults">
       <str name="echoParams">explicit</str>
+	  <str name="hl">true</str>
       <int name="rows">10</int>
       <!-- <str name="df">text</str> -->
     </lst>
@@ -993,6 +996,11 @@
     </lst>
   </requestHandler>
 
+  <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
+    <lst name="defaults">
+    <str name="config">data-config.xml</str>
+    </lst>
+</requestHandler>
   <!-- Search Components
 
        Search components are registered to SolrCore and used by 
@@ -1393,7 +1401,7 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
-    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+   <!-- <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
       <str name="defaultFieldType">strings</str>
       <lst name="typeMapping">
         <str name="valueClass">java.lang.Boolean</str>
@@ -1412,7 +1420,7 @@
         <str name="valueClass">java.lang.Number</str>
         <str name="fieldType">tdoubles</str>
       </lst>
-    </processor>
+    </processor>-->
     <processor class="solr.RunUpdateProcessorFactory"/>
   </updateRequestProcessorChain>
 

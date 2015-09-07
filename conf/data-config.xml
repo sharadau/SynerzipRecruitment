@@ -1,0 +1,15 @@
+<dataConfig>
+<dataSource type="JdbcDataSource" 
+            driver="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/reruitment_scrap_output" 
+            user="root" 
+            password=""/>
+<document>
+  <entity name="calsoft_main"  query="select id,JobDetailUrl,JobTitle from calsoft_main">
+	 <field column="id" name="id"/>
+     <field column="JobDetailUrl" name="JobDetailUrl"/>
+     <field column="JobTitle" name="JobTitle"/>       
+	 <field column="NumberOfVacancies" name="NumberOfVacancies"/>  
+  </entity>
+</document>
+</dataConfig>
