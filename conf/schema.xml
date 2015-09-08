@@ -136,7 +136,7 @@
    <field name="TotalJobs" type="text_general" indexed="true" stored="true" />
    <field name="ScrapeTime" type="text_general" indexed="true" stored="true" />
    <field name="JobDetailUrl" type="text_general" indexed="true" stored="true" />
-   <field name="UniqueKey" type="text_general" indexed="true" stored="true" />
+   <field name="UniqueJobKey" type="text_general" indexed="true" stored="true" />
    <field name="WholePosting" type="text_general" indexed="false" stored="false" />   
    <field name="JobDescriptionHtml" type="text_general" indexed="false" stored="false" />   
    <field name="WholePostingHtml" type="text_general" indexed="false" stored="false" />
