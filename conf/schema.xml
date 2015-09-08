@@ -137,44 +137,28 @@
    <field name="ScrapeTime" type="text_general" indexed="true" stored="true" />
    <field name="JobDetailUrl" type="text_general" indexed="true" stored="true" />
    <field name="UniqueKey" type="text_general" indexed="true" stored="true" />
-   <field name="WholePosting" type="text_general" indexed="false" stored="false" />
-   <field name="WholePostingHTML" type="text_general" indexed="false" stored="false" />
-   <field name="UniqueJobKey" type="text_general" indexed="false" stored="false" /> 
+   <field name="WholePosting" type="text_general" indexed="false" stored="false" />   
    <field name="JobDescriptionHtml" type="text_general" indexed="false" stored="false" />   
    <field name="WholePostingHtml" type="text_general" indexed="false" stored="false" />
-   <field name="PostingId" type="text_general" indexed="false" stored="false" />
-   <field name="PosingId" type="text_general" indexed="false" stored="false" />
+   <field name="PostingId" type="text_general" indexed="false" stored="false" />   
    <field name="FeaturedJob" type="text_general" indexed="false" stored="false" />
-   <field name="Scrapetime" type="text_general" indexed="false" stored="false" />
-   <field name="WholePostinHTML" type="text_general" indexed="false" stored="false" />
    <field name="ApplyUrl" type="text_general" indexed="true" stored="true" />
-   <field name="Vacancies" type="text_general" indexed="true" stored="true" />
-   <field name="NumberOfVacancies" type="text_general" indexed="true" stored="true" />
+   <field name="Vacancies" type="text_general" indexed="true" stored="true" />  
    <field name="EmplymentType" type="text_general" indexed="true" stored="true" />
    <field name="Reference" type="text_general" indexed="true" stored="true" />
    <field name="DateToRemove" type="text_general" indexed="true" stored="true" />
    <field name="JobStatus" type="text_general" indexed="true" stored="true" />
    <field name="Skills" type="string" indexed="true" stored="true" />
    <field name="TravelRequired" type="text_general" indexed="true" stored="true" />
-    <field name="Skill" type="text_general" indexed="true" stored="true" />
    <field name="PostingUniqueKey" type="text_general" indexed="true" stored="true" />
    <field name="JobCode" type="text_general" indexed="true" stored="true" />
-   <field name="Start_URL" type="text_general" indexed="true" stored="true" />
+   <field name="StartURL" type="text_general" indexed="true" stored="true" />
     <field name="TimeOfDay" type="text_general" indexed="true" stored="true" />
     <field name="_text_" type="text_general" multiValued="true" indexed="true" stored="false"/>
-	<field name="Specialty" type="text_general" indexed="true" stored="true" />
-	<field name="NumberOfOpenings" type="text_general" indexed="true" stored="true" />
-	<field name="UniqueJobkey" type="text_general" indexed="true" stored="true" />
-	<field name="Educaiton" type="text_general" indexed="true" stored="true" />
-	<field name="NuberOfVacancies" type="text_general" indexed="true" stored="true" />
-	<field name="Country" type="text_general" indexed="true" stored="true" />
-	<field name="_TravelRequired" type="text_general" indexed="true" stored="true" />
-	<field name="ContactPhoneNumber" type="text_general" indexed="true" stored="true" />
-	<field name="CompanyInformation" type="text_general" indexed="true" stored="true" />
-	<field name="EmploymentDuration" type="text_general" indexed="true" stored="true" />
-	<field name="TotalJObs" type="text_general" indexed="true" stored="true" />
-	<field name="UniquejobKey" type="text_general" indexed="true" stored="true" />
-	
+	<field name="Speciality" type="text_general" indexed="true" stored="true" />	
+	<field name="Country" type="text_general" indexed="true" stored="true" />	
+	<field name="ContactPhoneNumber" type="text_general" indexed="true" stored="true" />	
+	<field name="EmploymentDuration" type="text_general" indexed="true" stored="true" />	
     <uniqueKey>JobDetailUrl</uniqueKey>
    
    <!-- <field name="StartURL" type="string" indexed="true" stored="true" /> -->
