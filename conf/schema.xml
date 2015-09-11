@@ -152,7 +152,7 @@
    <field name="TravelRequired" type="text_general" indexed="true" stored="true" />
    <field name="PostingUniqueKey" type="text_general" indexed="true" stored="true" />
    <field name="JobCode" type="text_general" indexed="true" stored="true" />
-   <field name="StartURL" type="text_general" indexed="true" stored="true" />
+   <field name="Start_URL" type="text_general" indexed="true" stored="true" />
     <field name="TimeOfDay" type="text_general" indexed="true" stored="true" />
     <field name="_text_" type="text_general" multiValued="true" indexed="true" stored="false"/>
 	<field name="Speciality" type="text_general" indexed="true" stored="true" />	
