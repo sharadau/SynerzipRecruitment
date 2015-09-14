@@ -159,6 +159,7 @@
 	<field name="Country" type="text_general" indexed="true" stored="true" />	
 	<field name="ContactPhoneNumber" type="text_general" indexed="true" stored="true" />	
 	<field name="EmploymentDuration" type="text_general" indexed="true" stored="true" />	
+	<field name="Age" type="text_general" indexed="true" stored="true" />	
     <uniqueKey>JobDetailUrl</uniqueKey>
    
    <!-- <field name="StartURL" type="string" indexed="true" stored="true" /> -->
