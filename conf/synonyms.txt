@@ -51,6 +51,60 @@ pause, break
 rank, arrange,classify
 verify, authenticate, substantiate
 Respond, Reply
+one, 1
+two, 2
+three, 3
+four,4
+five, 5
+six,6
+seven, 7
+eight,8
+nine, 9
+ten, 10
+hundred, 100
+thousand, 1000
+tv, television
+#skills
+vb.net,vb dotnet, vb .net, vb dot net, vb .net developer
+.net,*.net,*dot net,*dotnet
+bigdata, big data
+architect,solution architect,enterprise architect,software architect,rational data architect
+ado.net,ado dotnet,ado dot net
+adobe photoshop,photoshop
+adobe illustrator,illustrator
+angular.js,angularjs,angular,angular js
+asp.net,asp dotnet,asp .net,asp dot net
+automation,automation testing,selenium,qtp,loadrunner,soapui,jmeter
+backbone.js,backbone js,backbone,backbonejs
+csharp,c#,c sharp
+c#.net,csharp.net,csharp,c#,c sharp
+cpp,c++
+java,core java
+dot net,*.net,*dot net,*dotnet
+ember.js,ember js,emberjs,ember
+ext.js,extjs,ext js,EXT-JS
+javascript,java script,js
+jquery ui,jquery-ui,jquery
+map reduce,mapreduce
+node.js,nodejs,node js,node
+objective c,objectivec
+oracle 10g,oracle 11g,oracle 9i,oracle10g,oracle11g,oracle9i
+pl sql,plsql
+qc,hp qc, quality center
+quick test professional,qtp
+require.js,require js,requirejs
+salesforce,sfdc
+support,tech support,technical support
+ux,ux designer,ux designing,ui designer,ui designing
+ui,ui designer,ui designing,ui developer, ux designing, ui designing, ui developer
+qa,testing, manual testing
+performance testing,jmeter,soapui,loadrunner
+data base testing,db testing, database testing
+webdriver,selenium webdriver
+webservices,webservice,web service,web services
+soap ui,soapui
+load runner,loadrunner
+unity 3d,unity
 
 #notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
 #after us won't split it into two words.
